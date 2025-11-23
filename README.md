@@ -13,7 +13,29 @@
 | C98220           | RC0603FR                | 0710KL,YAGEO               | 0603         | Chip Resistor - 10kΩ 75V         | 200      | 0.0011        |
 | C23138           | 0603WAF3300T5E          | UNI-ROYAL                  | 0603         | Chip Resistor - 330Ω 75V         | 100      | 0.0011        |
 
+<br>
 
 ## Pinout Description
 
-TODO
+<pre>
+      _⎽⎽⎽⎽⎽⎽⎽⎽⎽_
+     |○             ◻|
+     |○             ○|
+     |○             ○|
+     |○             ○|
+     |○             ○|
+     |○             ○| ← J1
+J2 → |○             ○|
+     |○             ○|
+     |○             ○|
+     |○ ◻ ○ ○ ○ ○ ○ ○|
+     |○|‾⎺⎺↑⎺⎺⎺⎺|○|
+     |◻|    J3     |○|
+      ⎺            ⎺
+</pre>
+
+|    |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  10  |  11  |  12 |
+| -- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :--: | :--: | :-: |
+| J1 | D9  | D8  | D7  | D6  | D5  | D4  | D3  | D2  | GND | RST  | RXI  | TXO |
+| J2 | RAW | GND | RST | VCC | A3  | A2  | A1  | A0  | SCK | MISO | MOSI | D10 |
+| J3 | DTR | TXO | RXI | VCC | GND | GND |     |     |     |      |      |     |
