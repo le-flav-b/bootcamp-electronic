@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "bootcamp_library")(type "KiCad")(uri "/home/flboulea/Documents/electronic/symbols/bootcamp_library.kicad_sym")(options "")(descr ""))
+)

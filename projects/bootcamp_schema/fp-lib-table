@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "bootcamp_schema-backups")(type "KiCad")(uri "${KIPRJMOD}/bootcamp_schema-backups.pretty")(options "")(descr ""))
+)
